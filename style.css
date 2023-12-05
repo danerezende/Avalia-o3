@@ -1,0 +1,229 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(31, 31, 31);
+}
+.cabeçalho{
+    width: 100%;
+    background-color:white;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    margin-top:7px;
+    margin-right:25px;
+}
+ul li:hover{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+ul li{
+    align-items:center;
+    color:white;
+    font:bolder;
+    margin-left: 20px;
+    background-color:orangered;
+    padding:10px 25px;
+    border-radius:20px;
+}
+.logo{
+    display:flex;
+    margin-left:20px;
+}
+a{
+    text-decoration:none;
+    outline:none;
+    color:inherit;
+}
+
+.barra{
+    display:flex;
+    margin-top:10px;
+    margin-left:15%;;
+    padding:10px;
+    font-size:16px;
+}
+input{
+    margin-left:10px;
+    border-radius:20px;
+    padding:10px;
+}
+.barra form{
+    display:flex;
+}
+.barra form label{
+    margin-top:10px;
+}
+.barra form .search{
+    padding-left:120px;
+    text-align:center;
+}
+
+.produto{
+    background-color:white;
+    position:absolute;
+    padding:20px;
+    margin:auto;
+    margin-top:100px;
+    margin-left:300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.produto2{
+    background-color:white;
+    position:absolute;
+    padding:12px;
+    margin:auto;
+    margin-top:100px;
+    margin-left:700px;
+    justify-content: center;
+    align-items: center;
+}
+.produto .preço{
+    margin-left:64px;
+}
+.estoque{
+    display:inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left:100px;
+}
+.produto2 .preço{
+    margin-left:64px;
+}
+.produto3 .preço{
+    margin-left:64px;
+}
+.produto .descrição{
+    margin-left:10px;
+}
+.produto2 .descrição{
+    margin-left:10px;
+}
+.produto3 .descrição{
+    margin-left:10px;
+}
+.produto3{
+    background-color:white;
+    position:absolute;
+    padding:12px;
+    margin:auto;
+    margin-top:100px;
+    margin-left:1090px;
+    justify-content: center;
+    align-items: center;
+}
+.função{
+    display:flex;
+    align-items: center;
+    margin-top:4.5%;;
+    background-color:white;
+    padding:50px;
+    width: 100%;
+    background-position:center center;   
+}
+
+.função .img{
+    margin-left:10%;
+}
+
+.função h1{
+    margin-bottom:20px;
+    font-weight: 800;
+}
+
+.função .texto{
+    margin-left:11%;
+}
+
+.contatos{
+    margin: 2%;
+    display:flex;
+    color:white;
+    margin-top: 800px;
+    margin-left: 35%;
+    font-size:14px;
+}
+
+.contatos .lucas{
+    margin-left:35px;
+
+}
+
+.slider{
+    margin:0 auto;
+    width: 1536,21;
+    height: 547,56;
+    overflow: hidden;
+    margin-left:8%;
+    margin-top:80px;    
+}
+
+.slides{
+    width: 400%;
+    height: 547,56;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position:relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 1536,21px;
+    height: 547,56px;
+}
+
+.manual-navigation{
+    position:absolute;
+    margin-left:40%;
+    width: 1536,21px;
+    margin-top:-40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:Last-child){
+    margin-right:40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
