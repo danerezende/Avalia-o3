@@ -1,5 +1,5 @@
 # Agência Digital 
-Este projeto é um website  desenvolvido com HTML, CSS e JavaScript, para uma agência de marketing. Ele destaca serviços, equipe e informações de contato, com funcionalidades dinâmicas como slider de banners e um design moderno e responsivo.
+website  desenvolvido com HTML, CSS e JavaScript, para uma agência de marketing. Ele destaca serviços, equipe e informações de contato, com funcionalidades dinâmicas como slider de banners e um design moderno e responsivo.
 
 🔍 Funcionalidades Principais
 Slider de Banners: Navegação automática e manual entre banners interativos.
